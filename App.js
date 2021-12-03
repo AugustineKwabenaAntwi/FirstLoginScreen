@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import LoginScreen from './LoginScreen';
+import SignupScreen from './SignupScreen';
 import { StyleSheet, Text, View ,TextInput,TouchableOpacity, ScrollView,FlatList} from 'react-native';
 class App extends React.Component{
   constructor(props){
@@ -29,7 +30,7 @@ class App extends React.Component{
   render(){
     return (
       <View style={styles.container}>
-        <LoginScreen/>
+        <SignupScreen/>
 
 
 
